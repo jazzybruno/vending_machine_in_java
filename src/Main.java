@@ -53,7 +53,7 @@ public class Main {
                         System.out.print(products[i][j] + " ==> ");
                     }else if(j == 1) {
                         System.out.print(products[i][j]);
-                        System.out.print("$ ==> You can not afford this");
+                        System.out.print("$ ==> You can  not afford this");
                     }else{
                         System.out.print(products[i][j]);
                     }
@@ -86,8 +86,6 @@ public class Main {
             System.out.println( numbering + ". " +  bought[y]);
         }
 
-        
-        
         //buying the products
         int amountToPay = 0;
 
